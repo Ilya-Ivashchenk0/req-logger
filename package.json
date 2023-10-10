@@ -1,0 +1,8 @@
+{
+  "name": "req-loggs",
+  "version": "1.0.1",
+  "description": "Постой логер для отображния входящих запросов к серверу в консоли.",
+  "main": "logger.js",
+  "author": "Ilya-Ivashchenk0",
+  "license": "ISC"
+}
