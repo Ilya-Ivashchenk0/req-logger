@@ -17,7 +17,7 @@ npm install req-loggs
 
 В вашем серверном коде подключите `req-loggs` следующим образом:
 
-![изображение](https://i.ibb.co/0Q5KQzT/image.png)
+![изображение](https://i.ibb.co/kB2p88R/image.png)
 
 пример кода:
 
@@ -29,9 +29,10 @@ const reqLogg = require('req-loggs') // импортируйте пакет в �
 
 const app = express()
 
-app.use(reqLogg) // Добавьте req-loggs как middleware
+app.use(reqLogg) // добавьте req-loggs как middleware
 
 // теперь req-loggs будет автоматически логировать входящие запросы к вашему серверу и выводить информацию в консоль.
 
 app.listen(3000, () => console.log(`Server started && listening on: http://localhost:3000`))
+
 ```
