@@ -8,6 +8,7 @@
 
 ```bash
 npm install req-loggs
+```
 
 ## Использование
 Чтобы использовать `req-loggs` в вашем проекте, выполните следующие шаги:
@@ -20,17 +21,17 @@ npm install req-loggs
 
 пример кода:
 
-|
-| javascript
-|
-| const express = require('express')
-| const reqLogg = require('req-loggs') // импортируйте пакет в корневой компонент express сервера
-|
-| const app = express()
-|
-| app.use(reqLogg) // Добавьте req-loggs как middleware
-|
-| // теперь req-loggs будет автоматически логировать входящие запросы к вашему серверу и выводить информацию в консоль.
-|
-| app.listen(3000, () => console.log(`Server started && listening on: http://localhost:3000`))
-|
+javascript
+```bash
+
+const express = require('express')
+const reqLogg = require('req-loggs') // импортируйте пакет в корневой компонент express сервера
+
+const app = express()
+
+app.use(reqLogg) // Добавьте req-loggs как middleware
+
+// теперь req-loggs будет автоматически логировать входящие запросы к вашему серверу и выводить информацию в консоль.
+
+app.listen(3000, () => console.log(`Server started && listening on: http://localhost:3000`))
+```
